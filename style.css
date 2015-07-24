@@ -1,0 +1,11 @@
+h2 a {
+  color: #E06666 !important;
+}
+
+h2 a:hover {
+  color: #E37575 !important;
+}
+
+p#byline a {
+  color: #6D9EEB !important;
+}
