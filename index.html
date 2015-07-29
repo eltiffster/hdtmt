@@ -562,7 +562,20 @@ return{aliases:["mk","mak"],c:[e.HCM,{b:/^\w+\s*\W*=/,rB:!0,r:0,starts:{cN:"cons
 			if( window.hljs ) hljs.initHighlightingOnLoad();
 
 		</script>
+		
+<script> //for exporting to PDF
+  if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
 
+    link.rel = 'stylesheet';
+
+    link.type = 'text/css';
+
+    link.href = 'pdf.css'; // Notice: I changed the path
+
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  }
+</script>
 		
 
 	</body>
